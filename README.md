@@ -1,7 +1,7 @@
 # django_apache - Gileno Seção 7/82
-Instalação de um django Server com base no apache2
+###### Instalação de um django Server com base no apache2
 
-Instalação do apache server 
+###### Instalação do apache server 
 
 ```
 sudo apt-get update
@@ -10,7 +10,7 @@ sudo apt-get install supervisor
 sudo apt-get install python3-dev
 ```
 
-Instalação do pip 
+###### Instalação do pip 
 ```
 wget https://bootstrap.pypa.io/get-pip.py
 ```
@@ -33,7 +33,7 @@ sudo apt-get install libexpatl
 
 A instalação do prefork está com probema
 
-instalação do módulo wsgi
+###### Instalação do módulo wsgi
 ```
 sudo apt-get install libapache2-mod-wsgi
 ```
