@@ -28,7 +28,7 @@ sudo apt-get install python-pip
 sudo apt-get install apache2
 sudo apt-get install apache2-mpm-prefork
 sudo apt-get install apache2-utils
-sudo apt-get install libexpatl
+sudo apt-get install libexpat1
 ```
 
 A instalação do prefork está com probema
