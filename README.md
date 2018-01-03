@@ -10,4 +10,7 @@ sudo apt-get install supervisor
 sudo apt-get install pyhton3-dev
 ```
 
-
+Instalação do pip 
+```
+wget https://bootstrap.pypa.io/get-pip.py
+```
