@@ -43,7 +43,7 @@ sudo apt-get install libapache2-mod-wsgi
 ```
 sudo apt-get install python-pip
 sudo apt-get install libmysqlclient-dev
-sudo apt-get install mysql-dev
+sudo apt-get install libmysqld-dev
 sudo apt-get install mysql-server 
 sudo apt-get install mysql-client
 ```
