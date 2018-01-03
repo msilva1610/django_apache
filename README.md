@@ -72,4 +72,35 @@ sudo apt-get install python-psycopg2
 sudo pip install django
 ```
 
-###### 
+###### Colocando o usuário atual (ubuntu) como owner do /var/www
+
+```
+cd /var/www
+sudo chown -R ubuntu .
+sudo chmod -R g+w .
+```
+
+###### Criando um projeto no var/www
+
+```
+django-admin startproject Project
+```
+
+###### Verificar se tudo ok
+
+```
+cd Project
+python manage.py migrate
+```
+###### Modificar as configurações do apache e permissões do usuário atual (ubuntu)
+
+```
+cd /etc/apache2
+sudo chown -R ubuntu .
+sudo chmod -R g+w .
+```
+
+###### Abrir a página de index do apache e verificar a configuração
+> A configuração deve dizer que as configurações estão no apache2.conf na seção configuration overview
+
+
