@@ -101,6 +101,26 @@ sudo chmod -R g+w .
 ```
 
 ###### Abrir a página de index do apache e verificar a configuração
-> A configuração deve dizer que as configurações estão no apache2.conf na seção configuration overview
+A configuração deve dizer que as configurações estão no apache2.conf na seção configuration overview
 
+## Vagrant
+Verifica onde o private key está localizado para o virtual apache
+```
+vagrant ssh-config apache
+```
+```
+D:\Arquivos\devops\vagrant\djangoserver>vagrant ssh-config apache
+Host apache
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile D:/Arquivos/devops/vagrant/djangoserver/.vagrant/machines/apache/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+```
+
+Usar o private key no puttygen para gerar uma chave para o putty
 
